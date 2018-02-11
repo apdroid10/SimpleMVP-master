@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="AP.SimpleMVP.View.Fragment.UserFragment">
+
+    <EditText
+        android:id="@+id/user_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Foo"/>
+
+    <EditText
+        android:id="@+id/user_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Bar"/>
+
+    <Button
+        android:id="@+id/user_save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="save"/>
+</LinearLayout>
